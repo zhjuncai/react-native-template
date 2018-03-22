@@ -9,8 +9,7 @@ const MyNotificationsSettingsScreen = ({ navigation }) => (
 const MySettingsScreen = ({ navigation }) => (
   <MyNavScreen banner="Settings Screen" navigation={navigation} />
 );
-  
-  
+
 const SettingsTab = StackNavigator({
   Settings: {
     screen: MySettingsScreen,

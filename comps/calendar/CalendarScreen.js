@@ -5,7 +5,7 @@ import MyNavScreen from '../common/MyNavScreen';
 const CaldendarScreen = ({ navigation }) => (
   <MyNavScreen banner="All Calendars" navigation = {navigation}/>
 );
-  
+
 const CalendarTab = StackNavigator({
   Calendar: {
     screen: CaldendarScreen,
