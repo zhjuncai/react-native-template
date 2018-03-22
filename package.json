@@ -1,16 +1,7 @@
 {
   "name": "react-native-template",
   "version": "0.1.0",
-  "private": true,
-  "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-register": "^6.26.0",
-    "jest-expo": "25.0.0",
-    "prettier": "1.11.1",
-    "react-native-scripts": "1.11.1",
-    "react-test-renderer": "16.2.0"
-  },
+  "private": false,
   "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
   "scripts": {
     "start": "react-native-scripts start",
@@ -26,6 +17,16 @@
     "expo": "^25.0.0",
     "react": "16.2.0",
     "react-native": "0.52.0",
-    "react-native-elements": "^0.19.0"
+    "react-native-elements": "^0.19.0",
+    "react-navigation": "^1.5.8"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "jest-expo": "25.0.0",
+    "prettier": "1.11.1",
+    "react-native-scripts": "1.11.1",
+    "react-test-renderer": "16.2.0"
   }
 }
