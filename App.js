@@ -1,9 +1,11 @@
+import React from 'react';
+
 import Ionicons from 'react-native-vector-icons/Ionicons';
 
 import MainTab from './comps/home/HomeScreen';
 import SettingsTab from './comps/settings/SettingScreen';
 import CalendarTab from './comps/calendar/CalendarScreen';
-import TabNavigator from 'react-navigation';
+import {TabNavigator} from 'react-navigation';
 
 const StacksInTabs = TabNavigator(
   {

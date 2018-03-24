@@ -1,6 +1,7 @@
 import React from 'react';
-import { ScrollView, StatusBar } from 'react-native';
+import { ScrollView, StatusBar, Button } from 'react-native';
 import { SafeAreaView } from 'react-navigation';
+import SampleText from './SampleText';
 
 const MyNavScreen = ({ navigation, banner }) => (
   <ScrollView>
